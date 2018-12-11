@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
+  <title>The Last Bishop</title>
+  <link rel="stylesheet" href="./css/master.css">
+  <link rel="stylesheet" href="./css/fullpage.min.css">
+  <script src="./js/main.js" charset="utf-8"></script>
+  <script src="./js/fullpage.min.js" charset="utf-8"></script>
+  <script src="./js/transition.min.js" charset="utf-8"></script>
+  <script src="./js/jquery-3.3.1.min.js" charset="utf-8"></script>
+<link href="https://fonts.googleapis.com/css?family=Caveat|EB+Garamond|Gamja+Flower" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.min.js"></script>
+</head>
+
+<body>
+  <div>
+    <div class="intro">
+      <div class="navbar">
+        <a class="nav-link" href="#">Skip Intro</a>
+        <script type="text/javascript">
+          var hasClicked = false;
+          jQuery('.nav-link').click(function() {
+            hasClicked = true;
+            console.log(hasClicked);
+            $(".intro").fadeOut(500);
+          });
+        </script>
+      </div>
+      <div class="intro-content">
+        <p id="typewriter"></p>
+        <script type="text/javascript">
+          new TypeIt('#typewriter', {
+            strings: ["To all those wonderful humans I met", " ", "I raise my pen to you..."],
+            speed: 70,
+            autoStart: false
+          });
+        </script>
+      </div>
+    </div>
+
+
+
+<div class="">
+  <button class="menu-button"></button>
+  <nav>
+    <ul class="menu">
+      <li data-text="Home">Home</li>
+      <li data-text="Pandemonium">Pandemonium</li>
+      <li data-text="About">About</li>
+      <li data-text="Contact">Contact</li>
+    </ul>
+  </nav>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+
+
+      <script  src="js/index.js"></script>
+  <script type="text/javascript">
+    $('button').on('click', function(){
+    $('body').toggleClass('open');
+  });
+  </script>
+</div>
+
+
+
+
+    <div class="start-content">
+      <script type="text/javascript">
+        $('.start-content').delay(7000).fadeIn(600);
+      </script>
+
+      <!-- <nav class="main-nav">
+        <a class="about-link" href="/about">About</a>
+      </nav> -->
+      <!-- <div class="about">
+        <h1>About me</h1>
+        <h2>Hello I am Kushal</h2>
+      </div> -->
+      <div class="main">
+        <div class="min-cont">
+        <h1 class="title">Kush</h1>
+        <p class="title-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</div>
+          <div class="btncontainer"><a class="btn" href="#">Welcome</a></div>      </div>
+    </div>
+  </div>
+</body>
+
+</html>
