@@ -29,7 +29,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-          Kushal Patankar
+          Kushal Patanka r
           </Text>
         </LogoBox>
       </a>
