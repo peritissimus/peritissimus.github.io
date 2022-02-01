@@ -29,7 +29,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Takuya Matsuyama
+          Kushal Patankar
           </Text>
         </LogoBox>
       </a>
